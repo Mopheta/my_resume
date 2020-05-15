@@ -1,0 +1,5 @@
+{
+  "jwtSecret": "mysecrettokken",
+  "githubClientId": "06c4fa8de2d1c5a2f90f",
+  "githubSecret": "044e2c676ce5a0b7d3cdba28ea9089cee196d6a1"
+}
