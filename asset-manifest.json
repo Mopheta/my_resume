@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Mopheta/Mopheta.github.io.git/static/css/main.09769023.chunk.css",
-    "main.js": "/Mopheta/Mopheta.github.io.git/static/js/main.2b3826fa.chunk.js",
-    "main.js.map": "/Mopheta/Mopheta.github.io.git/static/js/main.2b3826fa.chunk.js.map",
-    "runtime-main.js": "/Mopheta/Mopheta.github.io.git/static/js/runtime-main.b288dc23.js",
-    "runtime-main.js.map": "/Mopheta/Mopheta.github.io.git/static/js/runtime-main.b288dc23.js.map",
-    "static/js/2.41c5c4a6.chunk.js": "/Mopheta/Mopheta.github.io.git/static/js/2.41c5c4a6.chunk.js",
-    "static/js/2.41c5c4a6.chunk.js.map": "/Mopheta/Mopheta.github.io.git/static/js/2.41c5c4a6.chunk.js.map",
-    "index.html": "/Mopheta/Mopheta.github.io.git/index.html",
-    "precache-manifest.7be04723ad95a99c7fb5bee2e40e807b.js": "/Mopheta/Mopheta.github.io.git/precache-manifest.7be04723ad95a99c7fb5bee2e40e807b.js",
-    "service-worker.js": "/Mopheta/Mopheta.github.io.git/service-worker.js",
-    "static/css/main.09769023.chunk.css.map": "/Mopheta/Mopheta.github.io.git/static/css/main.09769023.chunk.css.map",
-    "static/js/2.41c5c4a6.chunk.js.LICENSE.txt": "/Mopheta/Mopheta.github.io.git/static/js/2.41c5c4a6.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/Mopheta/Mopheta.github.io.git/static/media/unit.bc11fa19.jpg",
-    "static/media/icon-font.css": "/Mopheta/Mopheta.github.io.git/static/media/linea-basic-10.e6763f00.ttf",
-    "static/media/profile.jpg": "/Mopheta/Mopheta.github.io.git/static/media/profile.0e16f330.jpg"
+    "main.css": "/Mopheta.github.io/static/css/main.41c796a3.chunk.css",
+    "main.js": "/Mopheta.github.io/static/js/main.2b3826fa.chunk.js",
+    "main.js.map": "/Mopheta.github.io/static/js/main.2b3826fa.chunk.js.map",
+    "runtime-main.js": "/Mopheta.github.io/static/js/runtime-main.1c9603bb.js",
+    "runtime-main.js.map": "/Mopheta.github.io/static/js/runtime-main.1c9603bb.js.map",
+    "static/js/2.51651ebc.chunk.js": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js",
+    "static/js/2.51651ebc.chunk.js.map": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js.map",
+    "index.html": "/Mopheta.github.io/index.html",
+    "precache-manifest.6313e2d61d78d84efe4490d506c0cabb.js": "/Mopheta.github.io/precache-manifest.6313e2d61d78d84efe4490d506c0cabb.js",
+    "service-worker.js": "/Mopheta.github.io/service-worker.js",
+    "static/css/main.41c796a3.chunk.css.map": "/Mopheta.github.io/static/css/main.41c796a3.chunk.css.map",
+    "static/js/2.51651ebc.chunk.js.LICENSE.txt": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/Mopheta.github.io/static/media/unit.bc11fa19.jpg",
+    "static/media/icon-font.css": "/Mopheta.github.io/static/media/linea-basic-10.e6763f00.ttf",
+    "static/media/profile.jpg": "/Mopheta.github.io/static/media/profile.0e16f330.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b288dc23.js",
-    "static/js/2.41c5c4a6.chunk.js",
-    "static/css/main.09769023.chunk.css",
+    "static/js/runtime-main.1c9603bb.js",
+    "static/js/2.51651ebc.chunk.js",
+    "static/css/main.41c796a3.chunk.css",
     "static/js/main.2b3826fa.chunk.js"
   ]
 }
