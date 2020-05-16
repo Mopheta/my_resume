@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Mopheta.github.io/static/css/main.41c796a3.chunk.css",
-    "main.js": "/Mopheta.github.io/static/js/main.2b3826fa.chunk.js",
-    "main.js.map": "/Mopheta.github.io/static/js/main.2b3826fa.chunk.js.map",
-    "runtime-main.js": "/Mopheta.github.io/static/js/runtime-main.1c9603bb.js",
-    "runtime-main.js.map": "/Mopheta.github.io/static/js/runtime-main.1c9603bb.js.map",
-    "static/js/2.51651ebc.chunk.js": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js",
-    "static/js/2.51651ebc.chunk.js.map": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js.map",
-    "index.html": "/Mopheta.github.io/index.html",
-    "precache-manifest.6313e2d61d78d84efe4490d506c0cabb.js": "/Mopheta.github.io/precache-manifest.6313e2d61d78d84efe4490d506c0cabb.js",
-    "service-worker.js": "/Mopheta.github.io/service-worker.js",
-    "static/css/main.41c796a3.chunk.css.map": "/Mopheta.github.io/static/css/main.41c796a3.chunk.css.map",
-    "static/js/2.51651ebc.chunk.js.LICENSE.txt": "/Mopheta.github.io/static/js/2.51651ebc.chunk.js.LICENSE.txt",
-    "static/media/styles.css": "/Mopheta.github.io/static/media/unit.bc11fa19.jpg",
-    "static/media/icon-font.css": "/Mopheta.github.io/static/media/linea-basic-10.e6763f00.ttf",
-    "static/media/profile.jpg": "/Mopheta.github.io/static/media/profile.0e16f330.jpg"
+    "main.css": "/my_resume/static/css/main.1bfb868e.chunk.css",
+    "main.js": "/my_resume/static/js/main.2b3826fa.chunk.js",
+    "main.js.map": "/my_resume/static/js/main.2b3826fa.chunk.js.map",
+    "runtime-main.js": "/my_resume/static/js/runtime-main.2fe08ad8.js",
+    "runtime-main.js.map": "/my_resume/static/js/runtime-main.2fe08ad8.js.map",
+    "static/js/2.601413c0.chunk.js": "/my_resume/static/js/2.601413c0.chunk.js",
+    "static/js/2.601413c0.chunk.js.map": "/my_resume/static/js/2.601413c0.chunk.js.map",
+    "index.html": "/my_resume/index.html",
+    "precache-manifest.7416567054f9166055c13bd3e65204f7.js": "/my_resume/precache-manifest.7416567054f9166055c13bd3e65204f7.js",
+    "service-worker.js": "/my_resume/service-worker.js",
+    "static/css/main.1bfb868e.chunk.css.map": "/my_resume/static/css/main.1bfb868e.chunk.css.map",
+    "static/js/2.601413c0.chunk.js.LICENSE.txt": "/my_resume/static/js/2.601413c0.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/my_resume/static/media/unit.bc11fa19.jpg",
+    "static/media/icon-font.css": "/my_resume/static/media/linea-basic-10.e6763f00.ttf",
+    "static/media/profile.jpg": "/my_resume/static/media/profile.0e16f330.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c9603bb.js",
-    "static/js/2.51651ebc.chunk.js",
-    "static/css/main.41c796a3.chunk.css",
+    "static/js/runtime-main.2fe08ad8.js",
+    "static/js/2.601413c0.chunk.js",
+    "static/css/main.1bfb868e.chunk.css",
     "static/js/main.2b3826fa.chunk.js"
   ]
 }
