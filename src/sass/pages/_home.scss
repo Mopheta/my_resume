@@ -1,0 +1,128 @@
+.section-about {
+  background-color: $color-grey-light;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-about_thisPage {
+  background-color: $color-grey-light;
+  padding: 25rem 0 10rem 0;
+  margin-top: -30vh;
+}
+
+.section-contactme {
+  margin-top: -20vh;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary-dark-blue, 0.3),
+    rgba($color-tertiary-dark, 1.8)
+  );
+  background-size: cover;
+
+  //   background-color: $color-grey-light;
+  //   padding: 25rem 0;
+  //   margin-top: -20vh;
+  //   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+
+  // Igual que usar cli-path
+  transform: skewY(0deg);
+  margin-top: 0;
+
+  // child direct child  en este caso es el row.(child de section-feauture
+  // en este caso vamos a rotar 7deg lo que esta en el row, para que quede en 0 respecto al parent que se giro -7deg
+  // basicamente movimos el fondo y al hijo (solo a el) lo giramos en 7deg
+  // & > * {
+  //   transform: skewY(7deg);
+  // }
+}
+
+.section-education {
+  background-color: $color-grey-light;
+  padding: 25rem 0 15rem 0;
+  margin-top: -30vh;
+}
+
+.section-features-separator-experience {
+  margin-top: 20vh;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-intermediate-blue, 0.8),
+      rgba($color-primary-dark-blue, 0.8)
+    ),
+    url(../css/img/experience.jpg);
+  background-size: cover;
+
+  //   background-color: $color-grey-light;
+  //   padding: 25rem 0;
+  //   margin-top: -20vh;
+  //   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+
+  // Igual que usar cli-path
+  transform: skewY(-7deg);
+  margin-top: 15.5rem;
+
+  // child direct child  en este caso es el row.(child de section-feauture
+  // en este caso vamos a rotar 7deg lo que esta en el row, para que quede en 0 respecto al parent que se giro -7deg
+  // basicamente movimos el fondo y al hijo (solo a el) lo giramos en 7deg
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.section-features-separator-education {
+  margin-top: 20vh;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-intermediate-blue, 0.8),
+      rgba($color-primary-dark-blue, 0.8)
+    ),
+    url(../css/img/education.jpg);
+  background-size: cover;
+
+  //   background-color: $color-grey-light;
+  //   padding: 25rem 0;
+  //   margin-top: -20vh;
+  //   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+
+  // Igual que usar cli-path
+  transform: skewY(-7deg);
+  margin-top: 15.5rem;
+
+  // child direct child  en este caso es el row.(child de section-feauture
+  // en este caso vamos a rotar 7deg lo que esta en el row, para que quede en 0 respecto al parent que se giro -7deg
+  // basicamente movimos el fondo y al hijo (solo a el) lo giramos en 7deg
+  & > * {
+    transform: skewY(7deg);
+  }
+}
+
+.section-features-separator-aboutpage {
+  margin-top: 20vh;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-intermediate-blue, 0.8),
+      rgba($color-primary-dark-blue, 0.8)
+    ),
+    url(../css/img/code-banner.jpg);
+  background-size: cover;
+
+  //   background-color: $color-grey-light;
+  //   padding: 25rem 0;
+  //   margin-top: -20vh;
+  //   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+
+  // Igual que usar cli-path
+  transform: skewY(-7deg);
+  margin-top: 15.5rem;
+
+  // child direct child  en este caso es el row.(child de section-feauture
+  // en este caso vamos a rotar 7deg lo que esta en el row, para que quede en 0 respecto al parent que se giro -7deg
+  // basicamente movimos el fondo y al hijo (solo a el) lo giramos en 7deg
+  & > * {
+    transform: skewY(7deg);
+  }
+}

@@ -1,0 +1,14 @@
+@mixin clearfix {
+  &::after {
+    content: ""; //para que aparezca en la pantalla, mandatory
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
