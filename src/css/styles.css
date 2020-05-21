@@ -639,7 +639,7 @@ body {
   @media (max-width: 37.5em) {
     .section-features-separator-education {
       padding: 15rem 0;
-      margin-top: 0; } }
+      margin-top: 0.1; } }
 
 .section-features-separator-aboutpage {
   margin-top: 20vh;
