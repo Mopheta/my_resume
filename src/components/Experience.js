@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function Experience(props) {
   return (
-    <section id="experience" class="section-about">
+    <section id="experience" class="section-experience">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">Experience</h2>
       </div>

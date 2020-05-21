@@ -17,12 +17,18 @@
         border-top: 1px solid $color-grey-light;
         padding-top: 2rem;
         display: inline-block;
+        @include respond(phone) {
+            margin: 0 25px;
+        }
     }
 
     &_text {
         border-top: 1px solid $color-grey-light;
         padding-top: 2rem;
         display: inline-block;
+        @include respond(phone) {
+            margin: 0 25px;
+        }
     }
 
     &__list {
@@ -33,6 +39,9 @@
         display: inline-block;
         &:not(:last-child) {
             margin-right: 1.5rem;
+        }
+        @include respond(phone) {
+            margin: 0 25px;
         }
     }
 
@@ -45,6 +54,7 @@
             text-transform: uppercase;
             display: inline-block;
             transition: all 0.2s;
+            padding: 5px;
             margin-bottom: 15px;
         }
         &:hover,

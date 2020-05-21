@@ -13,6 +13,14 @@
     &--p1 {
       left: 0;
       top: -2rem;
+
+      @include respond(phone) {
+        display: none;
+      }
+
+      @include respond(tab-port) {
+        display: none;
+      }
     }
 
     &--p2 {
@@ -56,6 +64,7 @@
     &--p1 {
       left: 0;
       top: -2rem;
+      margin-left: 25%;
     }
 
     &:hover {

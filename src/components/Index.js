@@ -1,8 +1,5 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-scroll';
-import PropTypes from 'prop-types';
-
-import ProfileGithubRepos from './ProfileGithubRepos';
 
 function Index(props) {
   return (
@@ -28,7 +25,5 @@ function Index(props) {
     </Fragment>
   );
 }
-
-Index.propTypes = {};
 
 export default Index;

@@ -8,6 +8,10 @@
   background-color: $color-grey-light;
   padding: 25rem 0 10rem 0;
   margin-top: -30vh;
+
+  @include respond(phone) {
+    margin-top: -50vh;
+  }
 }
 
 .section-contactme {
@@ -41,6 +45,20 @@
   background-color: $color-grey-light;
   padding: 25rem 0 15rem 0;
   margin-top: -30vh;
+
+  @include respond(phone) {
+    margin-top: -50vh;
+  }
+}
+
+.section-experience {
+  background-color: $color-grey-light;
+  padding: 25rem 0;
+  margin-top: -20vh;
+
+  @include respond(phone) {
+    margin-top: -30vh;
+  }
 }
 
 .section-features-separator-experience {
@@ -69,6 +87,11 @@
   & > * {
     transform: skewY(7deg);
   }
+
+  @include respond(phone) {
+    padding: 15rem 0;
+    margin-top: 0;
+  }
 }
 
 .section-features-separator-education {
@@ -96,6 +119,11 @@
   // basicamente movimos el fondo y al hijo (solo a el) lo giramos en 7deg
   & > * {
     transform: skewY(7deg);
+  }
+
+  @include respond(phone) {
+    padding: 15rem 0;
+    margin-top: 0;
   }
 }
 

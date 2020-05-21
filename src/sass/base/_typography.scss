@@ -1,10 +1,9 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
   line-height: 1.7;
   color: $color-grey-dark;
-  padding: 3rem;
 }
 
 .heading-primary {
@@ -29,6 +28,11 @@ body {
           animation-delay: 3s;
           animation-iteration-count: 3;
            */
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-size: 5rem;
+    }
   }
 
   &--sub {
@@ -40,6 +44,10 @@ body {
     animation-name: moveInRight;
     animation-duration: 2s;
     animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
   }
 }
 
@@ -47,13 +55,25 @@ body {
   font-size: 3.5rem;
   font-weight: 700;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, $color-primary-intermediate-blue, $color-primary-dark-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-primary-intermediate-blue,
+    $color-primary-dark-blue
+  );
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
 
   transition: all 0.2s;
+
+  @include respond(tab-port) {
+    font-size: 2.5rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2rem;
+  }
 
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
@@ -62,7 +82,11 @@ body {
 }
 
 .heading-tertiary {
-  background-image: linear-gradient(to right, $color-primary-intermediate-blue, $color-primary-dark-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-primary-intermediate-blue,
+    $color-primary-dark-blue
+  );
   display: inline-block;
   -webkit-background-clip: text;
   color: transparent;
@@ -76,7 +100,11 @@ body {
 }
 
 .heading-tertiary-name {
-  background-image: linear-gradient(to right, $color-primary-intermediate-blue, $color-primary-dark-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-primary-intermediate-blue,
+    $color-primary-dark-blue
+  );
   -webkit-background-clip: text;
   color: transparent;
   font-size: 2rem;
@@ -84,10 +112,15 @@ body {
   text-transform: uppercase;
   text-align: center;
   width: 55%;
+  margin-left: 25%;
 }
 
 .heading-tertiary-hobbies {
-  background-image: linear-gradient(to right, $color-primary-intermediate-blue, $color-primary-dark-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-primary-intermediate-blue,
+    $color-primary-dark-blue
+  );
   -webkit-background-clip: text;
   color: transparent;
   font-size: $default-font-size;

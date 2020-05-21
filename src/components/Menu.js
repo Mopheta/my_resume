@@ -64,7 +64,7 @@ function Menu(props) {
             <h3 class="heading-tertiary u-margin-bottom-small">Linkedin</h3>
             <p class="feature-box__text">
               <a
-                href="https://www.udemy.com/course/react-2nd-edition/"
+                href="https://www.linkedin.com/in/kevin-stalker-7b631b140/"
                 target="_blank"
                 className="education_course__link"
               >
@@ -92,7 +92,7 @@ function Menu(props) {
             <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
             <p class="feature-box__text">
               <a
-                href="https://www.udemy.com/course/react-2nd-edition/"
+                href="https://github.com/Mopheta"
                 target="_blank"
                 className="education_course__link"
               >
