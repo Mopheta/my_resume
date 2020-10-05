@@ -10,7 +10,7 @@ function Experience(props) {
       <div class="row">
         <div class="col-1-of-2">
           <h3 class="heading-tertiary u-margin-bottom-small">
-            Nimacloud - QA Anlyst Salesforce - Jul 2020 - current
+            Nimacloud - QA Anlyst Salesforce - Jul 2020 - Current
           </h3>
           <p class="paragraph">
             QA Analyst, In charge of project salesforce administrator tasks
