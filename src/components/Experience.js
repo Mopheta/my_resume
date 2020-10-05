@@ -10,7 +10,22 @@ function Experience(props) {
       <div class="row">
         <div class="col-1-of-2">
           <h3 class="heading-tertiary u-margin-bottom-small">
-            Altimetrik - Developer Junior React - Dec 2019 - current
+            Nimacloud - QA Anlyst Salesforce - Jul 2020 - current
+          </h3>
+          <p class="paragraph">
+            QA Analyst, In charge of project salesforce administrator tasks
+            supporting dev team, such as object creation, user management, User
+            Interface, process automation (Process builder and workflow).
+          </p>
+          <p class="paragraph_important">
+            {' '}
+            <strong>
+              Currently preparing Salesforce administrator certification
+            </strong>
+          </p>
+
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Altimetrik - Developer Junior React - Dec 2019 - Jul 2020
           </h3>
           <p class="paragraph">
             Internal application of the company. Technologies: React.js (redux),

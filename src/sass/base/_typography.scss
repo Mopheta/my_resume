@@ -137,3 +137,13 @@ body {
     margin-bottom: 2rem;
   }
 }
+
+.paragraph_important {
+  font-size: $default-font-size;
+  margin-bottom: 2rem;
+  color: red;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}

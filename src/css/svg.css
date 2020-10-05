@@ -1,0 +1,14 @@
+#leaves {
+    animation: leaves 1s ease alternate infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes leaves {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(20deg);
+    }
+}

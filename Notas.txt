@@ -1,1 +1,12 @@
-Test notas
+
+npm run compile:sass
+
+git branch <branch name>
+git checkout <branch name>   now im positioned in the branch
+git add .
+git commit -m "message"
+git merge <branch name> -m "message"
+git merge master -m "message"
+git push -u origin <branch name>
+
+npm run deploy
