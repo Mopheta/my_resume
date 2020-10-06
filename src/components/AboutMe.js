@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-scroll';
 
-import profile from '../css/img/profile.jpg';
+import profile from '../css/img/F.png';
 
 function AboutMe(props) {
   return (
@@ -40,8 +40,9 @@ function AboutMe(props) {
             My experience in recent years has been quality assurance, manual
             testing, ux. I have long been studying react.js, node.js, as well as
             sass, mongoDB, etc. My intention is to develop more and more with
-            front-end technologies. That is the reason why I am looking for
-            opportunities as react junior
+            front-end technologies.
+            <p></p>
+            I’m interested in learn automation.
           </p>
 
           <p>
