@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "07cdba339e8b700958ca7f8ce30b2ed2",
+    "revision": "b5b137f466c575a3796e173d8d082378",
     "url": "/my_resume/index.html"
   },
   {
-    "revision": "1ca44b497913d3309c29",
-    "url": "/my_resume/static/css/main.f5c8c911.chunk.css"
+    "revision": "077660351bb2f5d9ee4c",
+    "url": "/my_resume/static/css/main.b7eb1c73.chunk.css"
   },
   {
-    "revision": "f5da0ee2f3b32c3322fc",
-    "url": "/my_resume/static/js/2.601413c0.chunk.js"
+    "revision": "1339e86b9c77f3d57a3c",
+    "url": "/my_resume/static/js/2.1e95b1e8.chunk.js"
   },
   {
     "revision": "7694ed5eff56d74dfc4b6ac3fc78a12b",
-    "url": "/my_resume/static/js/2.601413c0.chunk.js.LICENSE.txt"
+    "url": "/my_resume/static/js/2.1e95b1e8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ca44b497913d3309c29",
-    "url": "/my_resume/static/js/main.33dbff2f.chunk.js"
+    "revision": "077660351bb2f5d9ee4c",
+    "url": "/my_resume/static/js/main.5d6c7893.chunk.js"
   },
   {
     "revision": "1a35bb4cf2a30df08c77",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1dde66c9b128b768c9596c748a89360c",
     "url": "/my_resume/static/media/ortlogo.1dde66c9.jpg"
+  },
+  {
+    "revision": "58848b9e636ed1201124f6eaa8be9a34",
+    "url": "/my_resume/static/media/salesforce.58848b9e.png"
   },
   {
     "revision": "bc11fa19de658e736a022675c8f0dcf2",
