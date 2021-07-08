@@ -9,19 +9,27 @@ function Experience(props) {
       </div>
       <div class="row">
         <div class="col-1-of-2">
+           <h3 class="heading-tertiary u-margin-bottom-small">
+            Oktana - QA Anlyst Salesforce SSR- Nov 2020 - Current
+          </h3>
+          <p class="paragraph">
+            QA Analyst, In charge of project salesforce administrator tasks
+            supporting dev team.
+            Automation Jr with selenium + Java
+          </p>
+          <p class="paragraph_important">
+            {' '}
+            <strong>
+              Currently preparing Salesforce App Builder certification
+            </strong>
+          </p>
           <h3 class="heading-tertiary u-margin-bottom-small">
-            Nimacloud - QA Anlyst Salesforce - Jul 2020 - Current
+            Nimacloud - QA Anlyst Salesforce - Jul 2020 - Nov 2020
           </h3>
           <p class="paragraph">
             QA Analyst, In charge of project salesforce administrator tasks
             supporting dev team, such as object creation, user management, User
             Interface, process automation (Process builder and workflow).
-          </p>
-          <p class="paragraph_important">
-            {' '}
-            <strong>
-              Currently preparing Salesforce administrator certification
-            </strong>
           </p>
 
           <h3 class="heading-tertiary u-margin-bottom-small">
@@ -38,15 +46,16 @@ function Experience(props) {
             Data Analysis - Functional Testing - Automation (Junior / selenium
             webdriver) - Requirements analysis - UX - Minor bug fixing
           </p>
+
+        </div>
+
+        <div class="col-1-of-2">
           <h3 class="heading-tertiary u-margin-bottom-small">
             Tata Consultancy Services - Quality Assurance - Aug 2016 - Nov 2018
           </h3>
           <p class="paragraph">
             Data Analysis - Functional Testing - Requirements analysis - UX
           </p>
-        </div>
-
-        <div class="col-1-of-2">
           <h2 class="heading-tertiary  u-margin-bottom-small-hobbies">
             Tata Consultancy Services - Procurement Team – HSPS Team Supervisor
             - Jul 2015 - Aug 2016

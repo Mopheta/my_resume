@@ -181,7 +181,7 @@ body {
 .paragraph_important {
   font-size: 1.6rem;
   margin-bottom: 2rem;
-  color: red; }
+  color: #0062bd; }
   .paragraph_important:not(:last-child) {
     margin-bottom: 2rem; }
 
@@ -372,6 +372,8 @@ body {
         background-image: linear-gradient(to right bottom, #2998ff, #0062bd); }
       .card__side--back-3 {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      .card__side--back-4 {
+        background-image: linear-gradient(to right bottom, #4bb9d6, #2998ff); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -388,6 +390,8 @@ body {
       background-image: linear-gradient(to right bottom, #2998ff, #0062bd), url(../css/img/unit.jpg); }
     .card__picture-3 {
       background-image: linear-gradient(to right bottom, #2998ff, #0062bd), url(../css/img/fcea.jpg); }
+    .card__picture-4 {
+      background-image: linear-gradient(to right bottom, #4bb9d6, #2998ff), url(../css/img/salesforce.png); }
   .card__heading {
     font-size: 1.8rem;
     font-weight: 300;
@@ -408,6 +412,8 @@ body {
       background-image: linear-gradient(to right bottom, rgba(0, 98, 189, 0.85), rgba(0, 98, 189, 0.85)); }
     .card__heading-span--3 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__heading-span--4 {
+      background-image: linear-gradient(to right bottom, rgba(75, 185, 214, 0.85), rgba(41, 152, 255, 0.85)); }
   .card__details {
     padding: 3rem; }
     .card__details ul {
@@ -420,6 +426,24 @@ body {
         padding: 1rem; }
         .card__details ul li:not(:last-child) {
           border-bottom: 1px solid #777; }
+    .card__details-salesforce ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details-salesforce ul li {
+        text-align: center;
+        font-size: 1.4rem;
+        padding: 2rem; }
+        .card__details-salesforce ul li:not(:last-child) {
+          border-bottom: 1px solid #777; }
+      .card__details-salesforce ul .salesforce_certification {
+        text-align: left;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+        padding: 2rem; }
+        .card__details-salesforce ul .salesforce_certification__title {
+          font-size: 2rem;
+          color: rgba(75, 185, 214, 0.85); }
   .card__cta {
     position: absolute;
     top: 50%;
@@ -437,6 +461,35 @@ body {
   .card__price-value {
     font-size: 6rem;
     font-weight: 100; }
+
+.Collapsible {
+  background-color: #00b9eb;
+  padding: 1.4rem; }
+
+.Collapsible__contentOuter {
+  background-color: #ffffff;
+  margin-top: 5px;
+  padding-left: 5px;
+  border-radius: 12px; }
+
+.Collapsible__trigger {
+  /*  background-image: linear-gradient(
+    to right,
+    $color-grey-light,
+    $color-primary-light-blue
+  ); */
+  color: #e7e7e7;
+  display: inline-block;
+  -webkit-background-clip: text;
+  /*   color: transparent; */
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+  .Collapsible__trigger__name {
+    text-align: center; }
+
+.inner_collapsible {
+  margin-top: 40px; }
 
 .popup {
   height: 100vh;

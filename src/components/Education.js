@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Collapsible from 'react-collapsible';
 
 function Education(props) {
   return (
@@ -125,78 +126,127 @@ function Education(props) {
         </div>
       </div>
       <div className="row">
-        <div class="col-4-of-4">
-          <h3 class="heading-tertiary u-margin-bottom-small">
-            Additional studies
-          </h3>
-          <p class="paragraph">Languages - English </p>
-          <p class="paragraph">Excel - intermediate / advanced </p>
-        </div>
-        <div class="col-4-of-4">
-          <h3 class="heading-tertiary u-margin-bottom-small">Online courses</h3>
-          <p class="paragraph">
-            Udemy -{' '}
-            <a
-              href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
-              target="_blank"
-              className="education_course__link"
-            >
-              Node.js Developer Course
-            </a>{' '}
-          </p>
-          <p class="paragraph">
-            Udemy -{' '}
-            <a
-              href="https://www.udemy.com/course/react-2nd-edition/"
-              target="_blank"
-              className="education_course__link"
-            >
-              The Complete React Developer Course (w/ Hooks and Redux)
-            </a>{' '}
-          </p>
-          <p class="paragraph">
-            Udemy -{' '}
-            <a
-              href="https://www.udemy.com/course/mern-stack-front-to-back/"
-              target="_blank"
-              className="education_course__link"
-            >
-              MERN Stack Front To Back: Full Stack React, Redux & Node.js
-            </a>{' '}
-          </p>
-          <p class="paragraph">
-            Udemy -{' '}
-            <a
-              href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
-              target="_blank"
-              className="education_course__link"
-            >
-              Build Responsive Real World Websites with HTML5 and CSS3
-            </a>{' '}
-          </p>
 
-          <p class="paragraph">
-            Udemy -{' '}
-            <a
-              href=" https://www.udemy.com/course/csharp-tutorial-for-beginners/"
-              target="_blank"
-              className="education_course__link"
-            >
-              C# Basics for Beginners: Learn C# Fundamentals by Coding
-            </a>{' '}
-          </p>
+      <Collapsible trigger="Additional Studies - Click Here [ + ]">
+        <div class="col-4-of-4">
+          <div class="inner_collapsible">
+            <strong><p class="paragraph_important">Salesforce - Certified Administrator </p></strong>
+            <p class="paragraph">Languages - English </p>
+            <p class="paragraph">Excel - intermediate / advanced </p>
+          </div>
+
         </div>
         <div class="col-4-of-4">
-          <h3 class="heading-tertiary u-margin-bottom-small">Knowledge of:</h3>
-          <p class="paragraph">HTML5 - CSS - SASS</p>
-          <p class="paragraph">Databases (MongoDB, SQL, MySQL)</p>
-          <p class="paragraph">React.js </p>
-          <p class="paragraph">Node.js </p>
-          <p class="paragraph">C# </p>
-          <p class="paragraph">Selenium webdriver automation (low)</p>
+          <div class="inner_collapsible">
+            <h3 class="heading-tertiary u-margin-bottom-small">Online courses</h3>
+            <p class="paragraph">
+              Udemy -{' '}
+              <a
+                href="https://www.udemy.com/course/the-complete-nodejs-developer-course-2/"
+                target="_blank"
+                className="education_course__link"
+              >
+                Node.js Developer Course
+              </a>{' '}
+            </p>
+            <p class="paragraph">
+              Udemy -{' '}
+              <a
+                href="https://www.udemy.com/course/react-2nd-edition/"
+                target="_blank"
+                className="education_course__link"
+              >
+                The Complete React Developer Course (w/ Hooks and Redux)
+              </a>{' '}
+            </p>
+            <p class="paragraph">
+              Udemy -{' '}
+              <a
+                href="https://www.udemy.com/course/mern-stack-front-to-back/"
+                target="_blank"
+                className="education_course__link"
+              >
+                MERN Stack Front To Back: Full Stack React, Redux & Node.js
+              </a>{' '}
+            </p>
+            <p class="paragraph">
+              Udemy -{' '}
+              <a
+                href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                target="_blank"
+                className="education_course__link"
+              >
+                Build Responsive Real World Websites with HTML5 and CSS3
+              </a>{' '}
+            </p>
+
+            <p class="paragraph">
+              Udemy -{' '}
+              <a
+                href=" https://www.udemy.com/course/csharp-tutorial-for-beginners/"
+                target="_blank"
+                className="education_course__link"
+              >
+                C# Basics for Beginners: Learn C# Fundamentals by Coding
+              </a>{' '}
+            </p>
+          </div>
+        </div>
+        <div class="col-4-of-4">
+          <div class="inner_collapsible">
+            <h3 class="heading-tertiary u-margin-bottom-small">Knowledge of:</h3>
+            <p class="paragraph">HTML5 - CSS - SASS</p>
+            <p class="paragraph">Databases (MongoDB, SQL)</p>
+            <p class="paragraph">React.js, Node.js  </p>
+            <p class="paragraph">C# </p>
+            <p class="paragraph">Selenium webdriver automation</p>
+          </div>
+        </div>
+      </Collapsible>
+
+      </div>  
+
+  <div>
+    <div class="row">
+      <div class="col-1-of-3">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture-4">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--4">
+                  Salesforce
+                </span>
+              </h4>
+              <div class="card__details-salesforce">
+                <ul>
+                  <li class="salesforce_certification__title">Certifications</li>
+                  <li class="salesforce_certification">
+                    <p>Salesforce Certified Administrator </p>
+                  </li>
+                  <li>
+                    <p>Currently preparing Salesforce App Builder certification</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-4">
+              <div class="card__cta">
+                <div class="card__price-box">
+                  <p class="card__price-only">See my Salesforce Profile</p>
+                </div>
+                <a
+                  href="https://trailblazer.me/id/kstalker1"
+                  class="btn btn--white"
+                  target="_blank"
+                >
+                  go to site
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-
+  </div>
       {/* <div class="u-center-text u-margin-top-huge">
         <a href="#" class="btn btn--green">
           Discover all tours

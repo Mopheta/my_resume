@@ -85,18 +85,18 @@ function Menu(props) {
                 backgroundColor="rgba(47,139,156,1)"
                 iconSize="5"
                 roundness="50%"
-                url="https://github.com/Mopheta"
+                url="#"
                 size="45"
               />
             </div>
             <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
             <p class="feature-box__text">
               <a
-                href="https://github.com/Mopheta"
+                href="#"
                 target="_blank"
                 className="education_course__link"
               >
-                Explore my repositories
+                Ask for Link
               </a>
             </p>
           </div>

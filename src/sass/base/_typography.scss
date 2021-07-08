@@ -141,7 +141,7 @@ body {
 .paragraph_important {
   font-size: $default-font-size;
   margin-bottom: 2rem;
-  color: red;
+  color: $color-tertiary-dark;
 
   &:not(:last-child) {
     margin-bottom: 2rem;
