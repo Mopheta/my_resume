@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-scroll';
 
-import profile from '../css/img/F.png';
+import profile from '../css/img/profilelinkedin.jpg';
 
 function AboutMe(props) {
   return (
@@ -30,21 +30,19 @@ function AboutMe(props) {
             Hello everyone!
           </h3>
           <p className="paragraph">
-            My Name is Kevin Stalker, I am 29 years old. I am a person who loves
-            music, reading novels and technology articles, play 'futbol', as
-            well as spending time with friends and playing video games. One of
-            my favorite writers is Mr. John Katzenbach. author of among others
-            the well-known novel 'the psychoanalyst'.
+            My Name is Kevin Stalker, I am 32 years old. I am a person who loves
+            music, reading novels, play 'futbol', as well as spending time with friends and 
+            playing video games. 
           </p>
           <p className="paragraph">
-            My experience in recent years has been quality assurance, manual
-            testing, ux. I have long been studying react.js, node.js, as well as
-            sass, mongoDB, etc. My intention is to develop more and more with
-            front-end technologies.
-            <p></p>
-            I’m interested in learn automation.
+            My experience in recent years has been quality assurance, functional
+            testing, and Automation.
+            Currently, I'm working with Salesforce CRM.
           </p>
-
+          {/* <p className="paragraph">
+            I have long been studying react.js, node.js for fun.
+            Also I start studying automation, focused on selenium webdriver with Java.
+          </p> */}
           <p>
             <Link
               to="contact-me"
@@ -62,10 +60,9 @@ function AboutMe(props) {
           </h3>
           <p className="paragraph">
             This page was created with the purpose of presenting another
-            alternative when sharing my resume (cv). but also as my first
-            project and apply knowledge that I have acquired as a developer
+            alternative when sharing my resume (CV).
           </p>
-          <Link
+          {/* <Link
             to="about-this-page"
             className="footer__link"
             href="#"
@@ -73,7 +70,7 @@ function AboutMe(props) {
             duration={500}
           >
             Learn more about this page
-          </Link>
+          </Link> */}
         </div>
         {/* <h2 class="heading-tertiary-hobbies u-margin-bottom-small-hobbies">
           Hobbies

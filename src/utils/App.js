@@ -13,6 +13,7 @@ import AboutMe from '../components/AboutMe';
 import Education from '../components/Education';
 import Experience from '../components/Experience';
 import Footer from '../components/Footer';
+import Salesforce from '../components/Salesforce';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <AboutMe />
           <Education />
           <Experience />
+          {/* <Salesforce /> */}
           <ProfileGithubRepos />
           <Menu />
           <Footer />

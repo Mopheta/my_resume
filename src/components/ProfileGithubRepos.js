@@ -30,7 +30,7 @@ function ProfileGithubRepos({ getGithubRepos, repos }) {
           </h3>
           <p className="paragraph">
             react.js: dividing each section into separate components. sass: for
-            everything related to styles, using the{' '}
+            all related to styles, using the{' '}
             <a
               className="footer__link"
               href="https://medium.com/@andrew_barnes/bem-and-sass-a-perfect-match-5e48d9bc3894"
@@ -56,7 +56,7 @@ function ProfileGithubRepos({ getGithubRepos, repos }) {
           </div>
         </h2>
 
-        <div className="col-2-of-2">
+{/*         <div className="col-2-of-2">
           <div>
             <h3 className="heading-tertiary u-margin-bottom-small">My repos</h3>
           </div>
@@ -75,7 +75,7 @@ function ProfileGithubRepos({ getGithubRepos, repos }) {
               <p className="paragraph"> Watchers: {repo.watchers_count}</p>
             </Fragment>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

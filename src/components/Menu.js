@@ -42,7 +42,7 @@ function Menu(props) {
               />
             </div>
             <h3 class="heading-tertiary u-margin-bottom-small">Phone</h3>
-            <p class="feature-box__text">+598 94 226 372</p>
+            <p class="feature-box__text">Ask for the number</p>
           </div>
         </div>
         <div class="col-1-of-4">
@@ -85,19 +85,13 @@ function Menu(props) {
                 backgroundColor="rgba(47,139,156,1)"
                 iconSize="5"
                 roundness="50%"
-                url="https://github.com/Mopheta"
+                url="#"
                 size="45"
               />
             </div>
             <h3 class="heading-tertiary u-margin-bottom-small">Github</h3>
             <p class="feature-box__text">
-              <a
-                href="https://github.com/Mopheta"
-                target="_blank"
-                className="education_course__link"
-              >
-                Explore my repositories
-              </a>
+            <p class="feature-box__text">Ask for the Link</p>
             </p>
           </div>
         </div>

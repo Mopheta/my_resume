@@ -50,6 +50,14 @@
           $color-secondary-dark
         );
       }
+
+      &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-quartery-light,
+          $color-quartery-dark
+        );
+      }
     }
   }
 
@@ -100,6 +108,15 @@
         ),
         url(../css/img/fcea.jpg);
     }
+
+    &-4 {
+      background-image: linear-gradient(
+        to right bottom,
+        $color-quartery-light,
+        $color-quartery-dark
+      ),
+      url(../css/img/salesforce.png);
+    }
   }
 
   &__heading {
@@ -145,7 +162,17 @@
         rgba($color-secondary-dark, 0.85)
       );
     }
+
+    &--4 {
+      background-image: linear-gradient(
+        to right bottom,
+        rgba($color-quartery-light, 0.85),
+        rgba($color-quartery-dark, 0.85)
+      );
+    }
   }
+
+
 
   &__details {
     padding: 3rem;
@@ -162,6 +189,37 @@
 
         &:not(:last-child) {
           border-bottom: 1px solid $color-grey-dark;
+        }
+      }
+    }
+
+    
+    &-salesforce {
+      ul {
+        list-style: none;
+        width: 80%;
+        margin: 0 auto;
+  
+        li {
+          text-align: center;
+          font-size: 1.4rem;
+          padding: 2rem;
+  
+          &:not(:last-child) {
+            border-bottom: 1px solid $color-grey-dark;
+          }
+        }
+
+        .salesforce_certification{ 
+          text-align: left;
+          font-size: 1.4rem;
+          margin-bottom: 0.5rem;
+          padding: 2rem;
+          
+          &__title {
+            font-size: 2rem;
+            color: rgba($color-quartery-light, 0.85);
+          }
         }
       }
     }
@@ -192,4 +250,50 @@
     font-size: 6rem;
     font-weight: 100;
   }
+}
+
+.Collapsible {
+
+  background-color: $color-primary-dark-blue;
+  padding: 1.4rem;
+
+}
+
+.Collapsible__contentInner {
+  
+
+}
+
+
+.Collapsible__contentOuter {
+  background-color: $color-white;
+  margin-top: 5px;
+  padding-left: 5px;
+  border-radius: 12px;
+}
+
+.Collapsible__trigger {
+ /*  background-image: linear-gradient(
+    to right,
+    $color-grey-light,
+    $color-primary-light-blue
+  ); */
+  color: $color-grey-light;
+  
+  display: inline-block;
+  -webkit-background-clip: text;
+/*   color: transparent; */
+  font-size: $default-font-size;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  &__name {
+    text-align: center;
+  }
+}
+
+.inner_collapsible {
+  margin-top: 40px;
+
+
 }
