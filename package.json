@@ -10,7 +10,7 @@
     "express-validator": "^6.4.1",
     "gh-pages": "^2.2.0",
     "gravatar": "^1.8.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^5.9.13",
     "react-devtools": "^4.6.0",
     "react-redux": "^7.2.0",
