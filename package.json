@@ -14,6 +14,7 @@
     "mongoose": "^5.9.13",
     "react-devtools": "^4.6.0",
     "react-redux": "^7.2.0",
+    "react-scripts": "^5.0.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
