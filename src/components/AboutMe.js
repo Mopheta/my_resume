@@ -37,7 +37,7 @@ function AboutMe(props) {
           <p className="paragraph">
             My experience in recent years has been quality assurance, functional
             testing, and Automation.
-            Currently, I'm working with Salesforce CRM.
+            Currently, I'm working with Salesforce.
           </p>
           {/* <p className="paragraph">
             I have long been studying react.js, node.js for fun.
